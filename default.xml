@@ -258,10 +258,13 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/display" name="SomethingExplosive/android_hardware_qcom_display" remote="github" revision="somex-4.3" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="Team-Hydra/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/media-legacy" name="Team-Hydra/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
@@ -407,6 +410,7 @@
   <project path="vendor/nxp" name="SomethingExplosive/proprietary_vendor_nxp" remote="github" revision="somex-4.3" />
   <project path="vendor/samsung" name="SomethingExplosive/proprietary_vendor_samsung" remote="github" revision="somex-4.3" />
   <project path="vendor/widevine" name="SomethingExplosive/proprietary_vendor_widevine" remote="github" revision="somex-4.3" />
+  <project path="vendor/htc" name="SoMeX-ruby/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
 
   <!-- SoMeX vendor files -->
   <project path="vendor/SoMeX" name="SomethingExplosive/android_vendor_SoMeX" remote="github" revision="somex-4.3" />
